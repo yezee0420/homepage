@@ -4,10 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
- @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@font-face { font-family: 'UhBeeQUEENJ'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeQUEENJ.woff') format('woff'); font-weight: normal; font-style: normal; }
 
 body {
-  font-family: "Noto Sans KR", sans-serif !important; 
+  font-family:  "Noto Sans KR", sans-serif; 
   /*'Noto Sans KR','Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';*/
   padding-top: 54px;
   color: #868e96;
@@ -19,16 +21,24 @@ body {
     padding-left: 17rem;
   }
 }
+
 experience {
   font-family:"Noto Sans KR";
 }
+
 h1 {
   font-size: 7rem;
   line-height: 5.5rem;
 ;
 }
-h2,
-h3,
+ #subtitle, #ending {
+  font-family: "UhBeeQUEENJ";
+  font-size: 2rem;}
+
+
+#title {
+  font-family: "UhBeeQUEENJ";
+}
 h4,
 h5,
 h6 {
@@ -48,7 +58,7 @@ h3 {
   font-size: 2rem;
 }
 
-p.lead {
+.lead {
   font-size: 1.15rem;
   font-weight: 400;
 }
