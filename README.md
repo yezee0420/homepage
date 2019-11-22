@@ -16,3 +16,4 @@
 
 6. contributor 로 바로 추가가 되려면 master branch 에서 push 해야 하는 것 같다. mergetest branch 에서 commit하고 push 하고 다시 master branch로 돌아와서 merge하고(  add . 하고, commit 하고),  push했더니 contributor로 등록이 안되어 있따. 
 7. ( 이상한 집착이 불러오는 밤샘..ㅎ... 잼 ) test 성공하면 바로 자야지. 
+8. 음.. 혹시 내 레퍼지토리에 남이 기여하면 원래 내 이름 사라지고 남이름이 컨트리부터로 남는 것인가? 다른데 가서 기여 해봐야겠따 ...ㅎ... 
